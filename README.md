@@ -39,4 +39,11 @@ Retrieves the current disk usage and checks if it exceeds the threshold, setting
 Checks network connectivity by pinging google.com. Sets a warning message if there is no connectivity.
 Logs the system status and any warning messages to the log file.
 
-use case
+use cases:
+it use to provide command to the shell file in the terminal to control the program flow like start,stop and to get the status of the system while running the program for monitoing continously in an infinite loop
+
+HOW TO CREATE AND RUN THE SHELL FILE TO GET THE SYSTEM SYSTEM MONITOR REPORT:
+use any editor like vim and make text file by .sh extension like system_monitor.sh
+after creating the file make it executable by using command like "sudo chmod +x system_monitor.sh"
+For running the file to get the system usage use the command "sudo ./system_health start" where start is the command line to shell scripting
+Note: sudo has been used to get the super user permission to get the system metric from the system log with sudo it may not work as desire
